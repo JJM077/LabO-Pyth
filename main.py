@@ -1,10 +1,11 @@
-# online Python compiler (interpreter) to run Python online 
-# Write Python 3 code in this online editor and run it 
-
-print("Hello World")
-
+print("Hello world!")
 name = input("Enter your name: ")
-print("Hello,", name)
-age = int(age)
-print(" You will be", age +1, "next year")
 
+print("Hello, "+ name + "!")
+age = input("Enter your age: ")
+age = int(age)
+print(age + 1)
+
+print("You will be "+ str(age+1) + "next year")
+
+print(f"I am {age+1} next year")
